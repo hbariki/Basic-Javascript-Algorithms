@@ -1,0 +1,11 @@
+{
+  "name": "javascriptalgorithms",
+  "version": "1.0.0",
+  "description": "Simple javascript algorithms",
+  "main": "reverseString.js",
+  "scripts": {
+    "test": "nodemon server.js"
+  },
+  "author": "Harshini",
+  "license": "ISC"
+}
