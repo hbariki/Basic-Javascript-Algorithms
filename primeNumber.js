@@ -1,12 +1,17 @@
-// check whether number is prime or not
-function isPrime(n){
+// find the prime factors of a number
+function primeFactors(n){
     var divisor = 2;
-    while(n > divisor){
+    var factors = [];
+    while(n > 2){
         if(n % divisor == 0){
-            return false;
+            factors.push(divisor);
+            n = n/divisor;
         }
-        else
-          divisor ++;
+        else {
+            divisor++;
+        }
     }
-    return True;
+    return factors;
 }
+Primefactors(69)
+
