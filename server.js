@@ -1,10 +1,6 @@
-function fibonacci(n){
-    var fibo = [0,1];
-    if(n <= 2)
-        return 1;
-     for(var i =2; i<n; i++){
-         fibo[i] = fibo[i-1]+fibo[i-2];
-     }
-     return fibo[n];
+// 0 1 1 2 3 5 8
+var fibArr = [0,1];
+for(var i = 2; i<9; i++){
+    fibArr[i] = fibArr[i-2]+fibArr[i-1];
 }
-fibonacci(12);
+console.log(fibArr);
