@@ -1,13 +1,10 @@
-/**
- * Created by nmekala on 4/29/17.
- */
-var str = "welcome to coding algorithms";
-var strArr = str.split('');
-console.log(strArr);
-var i = 0;
-var reversedStr = '';
-while(i < strArr.length) {
-     i++;
-    reversedStr += strArr[strArr.length - i];
+function fibonacci(n){
+    var fibo = [0,1];
+    if(n <= 2)
+        return 1;
+     for(var i =2; i<n; i++){
+         fibo[i] = fibo[i-1]+fibo[i-2];
+     }
+     return fibo[n];
 }
-console.log(reversedStr);
+fibonacci(12);
