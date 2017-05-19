@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="2515c23c-bad6-43a3-80ca-3d4ae5525011" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/removeDuplicte.js" afterPath="$PROJECT_DIR$/removeDuplicte.js" />
     </list>
     <ignored path="Basic Javascript Algorithm.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -26,8 +27,8 @@
       <file leaf-file-name="removeDuplicte.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/removeDuplicte.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.7605985">
-              <caret line="19" column="51" selection-start-line="19" selection-start-column="51" selection-end-line="19" selection-end-column="51" />
+            <state vertical-scroll-proportion="0.40149626">
+              <caret line="16" column="28" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
               <folding />
             </state>
           </provider>
@@ -422,8 +423,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/removeDuplicte.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7605985">
-          <caret line="19" column="51" selection-start-line="19" selection-start-column="51" selection-end-line="19" selection-end-column="51" />
+        <state vertical-scroll-proportion="0.40149626">
+          <caret line="16" column="28" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
           <folding />
         </state>
       </provider>

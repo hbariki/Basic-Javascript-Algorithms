@@ -14,7 +14,7 @@ function removeDuplicate(str){
         if(charCount[char] == 1){
             newStr.push[j];
         }
-     return newStr.join('';)
+     return newStr.join('');
     }
 }
 removeDuplicateChar('Learn more about javascript');
